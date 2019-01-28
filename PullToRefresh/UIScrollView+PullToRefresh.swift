@@ -64,7 +64,7 @@ public extension UIScrollView {
         view.frame = defaultFrame(forPullToRefresh: pullToRefresh)
         
         addSubview(view)
-        sendSubview(toBack: view)
+        sendSubviewToBack(view)
     }
     
     func removePullToRefresh(at position: Position) {
